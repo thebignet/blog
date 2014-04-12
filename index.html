@@ -9,7 +9,7 @@
   <meta name="author" content="Jean Detoeuf">
 
   
-  <meta name="description" content="My name is Jean Detoeuf. I live in Lyon and I&rsquo;m a software developer. I spent the last few years learning to code and have gotten quite good at &hellip;">
+  <meta name="description" content="Well, it isn&rsquo;t really my first pull request. I&rsquo;ve done pull request on friend&rsquo;s projects on GitHub or even on GitLab working in &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -38,7 +38,7 @@
   <header role="banner"><hgroup>
   <h1><a href="/blog/">A developer's perspective</a></h1>
   
-    <h2>How I hack through it</h2>
+    <h2>How I hack through stuff</h2>
   
 </hgroup>
 
@@ -65,6 +65,52 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/blog/2014/04/12/first-pull-request/">First Pull Request</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-12T16:57:46+02:00" pubdate data-updated="true">Apr 12<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Well, it isn&rsquo;t really my first pull request.  I&rsquo;ve done pull request on friend&rsquo;s projects on GitHub or even on GitLab working in corporate environment.  This was really my first pull request on an open source project.  Ever since I saw Zack Holman&rsquo;s <a href="http://zachholman.com/talk/product-is-the-byproduct/">presentation</a> at Mix-It 2013 I knew I had to be a part of it.  And there I am contributing to Pivotal&rsquo;s <a href="http://projects.spring.io/spring-boot/">Spring Boot</a> project.</p>
+
+<p>I made this change because I was using Spring Boot for a corporate project.  The bootstrapping made it really easy to build, the convention over configuration aspect had the advantage of reducing the amount of overhead code to get the app up and running.  But maybe the convention wasn&rsquo;t fully what I needed.  Spring Boot 1.0.0.RELEASE had support for ActiveMQ, which worked great, but in my company, where the queuing system was relatively new, they decided to secure it by adding credentials.  Unfortunatly, Spring Boot did not provide out-of-the-box support for credentials.</p>
+
+<p>Adding this functionality was terribly easy (35 lines added and 4 removed).  I had modified the Spring Boot project I had cloned and builded it and deployed it as SNAPSHOT on my local repository.  Everything worked on first try.  As this is a common feature I guessed I wouldn&rsquo;t be the first and last to want it.  I commited this feature on a new branch on my GitHub fork and made a <a href="https://github.com/spring-projects/spring-boot/pull/618">pull request</a>.</p>
+
+<p>The Spring Boot team was really quick as to check the pull request and accepted it after my signing Pivotal&rsquo;s legal papers.  It got integrated into Spring Boot 1.0.1.RELEASE.</p>
+
+<p>This may seem as not a big deal to many readers, but I&rsquo;m sure you had the same excitement on your first major pull request.</p>
+
+<p>I am now a part of the open source community.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -115,6 +161,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/blog/2014/04/12/first-pull-request/">First Pull Request</a>
+      </li>
     
       <li class="post">
         <a href="/blog/blog/2014/04/12/created-my-blog/">Created My Blog</a>

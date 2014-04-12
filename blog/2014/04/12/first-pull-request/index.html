@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Category: Blogging - A developer's perspective</title>
+  <title>First Pull Request - A developer's perspective</title>
   <meta name="author" content="Jean Detoeuf">
 
   
-  <meta name="description" content="Category: blogging">
+  <meta name="description" content="Well, it isn&rsquo;t really my first pull request. I&rsquo;ve done pull request on friend&rsquo;s projects on GitHub or even on GitLab working in &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://thebignet.github.io/blogblog/categories/blogging">
+  <link rel="canonical" href="http://thebignet.github.io/blog/blog/2014/04/12/first-pull-request">
   <link href="/blog/favicon.png" rel="icon">
   <link href="/blog/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/blog/atom.xml" rel="alternate" title="A developer's perspective" type="application/atom+xml">
@@ -64,36 +64,103 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Category: Blogging</h1>
+    
+      <h1 class="entry-title">First Pull Request</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-12T16:57:46+02:00" pubdate data-updated="true">Apr 12<span>th</span>, 2014</time>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
+<div class="entry-content"><p>Well, it isn&rsquo;t really my first pull request.  I&rsquo;ve done pull request on friend&rsquo;s projects on GitHub or even on GitLab working in corporate environment.  This was really my first pull request on an open source project.  Ever since I saw Zack Holman&rsquo;s <a href="http://zachholman.com/talk/product-is-the-byproduct/">presentation</a> at Mix-It 2013 I knew I had to be a part of it.  And there I am contributing to Pivotal&rsquo;s <a href="http://projects.spring.io/spring-boot/">Spring Boot</a> project.</p>
 
-  
-  <h2>2014</h2>
+<p>I made this change because I was using Spring Boot for a corporate project.  The bootstrapping made it really easy to build, the convention over configuration aspect had the advantage of reducing the amount of overhead code to get the app up and running.  But maybe the convention wasn&rsquo;t fully what I needed.  Spring Boot 1.0.0.RELEASE had support for ActiveMQ, which worked great, but in my company, where the queuing system was relatively new, they decided to secure it by adding credentials.  Unfortunatly, Spring Boot did not provide out-of-the-box support for credentials.</p>
 
-<article>
-  
-<h1><a href="/blog/blog/2014/04/12/created-my-blog/">Created My Blog</a></h1>
-<time datetime="2014-04-12T11:58:45+02:00" pubdate><span class='month'>Apr</span> <span class='day'>12</span> <span class='year'>2014</span></time>
+<p>Adding this functionality was terribly easy (35 lines added and 4 removed).  I had modified the Spring Boot project I had cloned and builded it and deployed it as SNAPSHOT on my local repository.  Everything worked on first try.  As this is a common feature I guessed I wouldn&rsquo;t be the first and last to want it.  I commited this feature on a new branch on my GitHub fork and made a <a href="https://github.com/spring-projects/spring-boot/pull/618">pull request</a>.</p>
 
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/blog/categories/blogging/'>blogging</a></span>
-</footer>
+<p>The Spring Boot team was really quick as to check the pull request and accepted it after my signing Pivotal&rsquo;s legal papers.  It got integrated into Spring Boot 1.0.1.RELEASE.</p>
 
+<p>This may seem as not a big deal to many readers, but I&rsquo;m sure you had the same excitement on your first major pull request.</p>
 
-</article>
-
+<p>I am now a part of the open source community.</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Jean Detoeuf</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-12T16:57:46+02:00" pubdate data-updated="true">Apr 12<span>th</span>, 2014</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/blog/categories/opensource/'>opensource</a>, <a class='category' href='/blog/blog/categories/spring-boot/'>spring boot</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://thebignet.github.io/blog/blog/2014/04/12/first-pull-request/" data-via="thebignet" data-counturl="http://thebignet.github.io/blog/blog/2014/04/12/first-pull-request/" >Tweet</a>
+  
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/blog/2014/04/12/created-my-blog/" title="Previous Post: Created my blog">&laquo; Created my blog</a>
+      
+      
+    </p>
+  </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -174,7 +241,10 @@
       var disqus_shortname = 'thebignet';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://thebignet.github.io/blog/blog/2014/04/12/first-pull-request/';
+        var disqus_url = 'http://thebignet.github.io/blog/blog/2014/04/12/first-pull-request/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
