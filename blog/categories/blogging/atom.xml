@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[A developer's perspective]]></title>
-  <link href="http://thebignet.github.io/blog/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Blogging | A developer's perspective]]></title>
+  <link href="http://thebignet.github.io/blog/blog/categories/blogging/atom.xml" rel="self"/>
   <link href="http://thebignet.github.io/blog/"/>
   <updated>2014-04-12T16:51:23+02:00</updated>
   <id>http://thebignet.github.io/blog/</id>
