@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: blogging | A developer's perspective]]></title>
+  <title><![CDATA[Category: Blogging | A developer's perspective]]></title>
   <link href="http://thebignet.github.io/blog/blog/categories/blogging/atom.xml" rel="self"/>
   <link href="http://thebignet.github.io/blog/"/>
-  <updated>2014-04-16T08:25:17+02:00</updated>
+  <updated>2014-04-16T08:42:25+02:00</updated>
   <id>http://thebignet.github.io/blog/</id>
   <author>
     <name><![CDATA[Jean Detoeuf]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Created my blog]]></title>
+    <title type="html"><![CDATA[Created My Blog]]></title>
     <link href="http://thebignet.github.io/blog/blog/2014/04/12/created-my-blog/"/>
     <updated>2014-04-12T11:58:45+02:00</updated>
     <id>http://thebignet.github.io/blog/blog/2014/04/12/created-my-blog</id>
