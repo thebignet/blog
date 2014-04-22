@@ -3,7 +3,7 @@ layout: post
 title: "angularjs"
 date: 2014-04-22 18:52:52 +0200
 comments: true
-categories: 
+categories: ['angularjs','javascript']
 ---
 
 In 2012 I started looking at the effusion of JS frameworks, amongst which three cought my attention :
