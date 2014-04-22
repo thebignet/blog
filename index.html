@@ -9,10 +9,9 @@
   <meta name="author" content="Jean Detoeuf">
 
   
-  <meta name="description" content="In 2012 I started looking at the effusion of JS frameworks, amongst which three cought my attention :
-&ndash; Backbone.js
-&ndash; Knockout.js
-&ndash &hellip;">
+  <meta name="description" content="In 2012 I started looking at the effusion of JS frameworks, amongst which three cought my attention : Backbone.js
+Knockout.js
+AngularJS At that time &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -87,7 +86,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/blog/2014/04/22/angularjs/">Angularjs</a></h1>
+      <h1 class="entry-title"><a href="/blog/blog/2014/04/22/angularjs/">The Battle of Modern Javascript Frameworks</a></h1>
     
     
       <p class="meta">
@@ -113,14 +112,119 @@
   </header>
 
 
-  <div class="entry-content"><p>In 2012 I started looking at the effusion of JS frameworks, amongst which three cought my attention :
-&ndash; <a href="http://backbonejs.org/">Backbone.js</a>
-&ndash; <a href="http://knockoutjs.com/">Knockout.js</a>
-&ndash; <a href="angularjs.org">AngularJS</a></p>
+  <div class="entry-content"><p>In 2012 I started looking at the effusion of JS frameworks, amongst which three cought my attention :</p>
+
+<ul>
+<li><a href="http://backbonejs.org/">Backbone.js</a></li>
+<li><a href="http://knockoutjs.com/">Knockout.js</a></li>
+<li><a href="angularjs.org">AngularJS</a></li>
+</ul>
+
 
 <p>At that time, <strong>AngularJS</strong> was still emerging compared to Backbone, which was used in production and had all the attention.  Backbone is simple, so simple that its code serves as documentation.  This seems like a good thing, but the purpose of a framework is not to be designed simply, but to be simple to use.  That&rsquo;s what Knockout.js and AngularJS are.  But between the two, Knockout.js is too limited.  It does very well with data binding and templating, but doesn&rsquo;t have advanced features that made the popularity of AngularJS such as dependency injection, services, directives, animations &hellip;</p>
 
 <p>AngularJS is my prefered choice for future web applications.  It does wonders with a backend thanks to its REST API.  For me there&rsquo;s no need to have server-side rendering as AngularJS can take care of it and make use of services to communicate to the server.</p>
+
+<h2>Comparison between frameworks</h2>
+
+<p>The following characteristics are not meant to be exhaustive, but are of prime order to me regarding JavaScript frameworks.</p>
+
+<table>
+<thead>
+<tr>
+<th>Characteristic </th>
+<th align="center"> AngularJS </th>
+<th align="center"> Backbone.js </th>
+<th align="center"> Knockout</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ease of learning </td>
+<td align="center"> 3 </td>
+<td align="center"> 2 </td>
+<td align="center"> 1</td>
+</tr>
+<tr>
+<td>Documentation </td>
+<td align="center"> 1 </td>
+<td align="center"> 2 </td>
+<td align="center"> 3</td>
+</tr>
+<tr>
+<td>Community </td>
+<td align="center"> 1 </td>
+<td align="center"> 2 </td>
+<td align="center"> 3</td>
+</tr>
+<tr>
+<td><a href="http://www.google.com/trends/explore?hl=en-US#q=Angularjs%2C%20Backbone.js%2C%20Knockout.js&amp;date=today%2012-m&amp;cmpt=q">Number of users</a> </td>
+<td align="center"> 1 </td>
+<td align="center"> 2 </td>
+<td align="center"> 3</td>
+</tr>
+<tr>
+<td>Testing </td>
+<td align="center"> <i class="fa fa-check"></i> </td>
+<td align="center"> <i class="fa fa-check"></i> </td>
+<td align="center"> <i class="fa fa-check"></i></td>
+</tr>
+<tr>
+<td>Dependency injection </td>
+<td align="center"> <i class="fa fa-check"></i> </td>
+<td align="center"> <i class="fa fa-check"></i> </td>
+<td align="center"> </td>
+</tr>
+<tr>
+<td>Flexibility (1) </td>
+<td align="center"> 3 </td>
+<td align="center"> 1 </td>
+<td align="center"> 2</td>
+</tr>
+<tr>
+<td>Convention </td>
+<td align="center"> 1 </td>
+<td align="center"> 3 </td>
+<td align="center"> 2</td>
+</tr>
+<tr>
+<td><strong>One</strong> way data binding </td>
+<td align="center"> <i class="fa fa-check"></i> </td>
+<td align="center"> with epoxy.js </td>
+<td align="center"> <i class="fa fa-check"></i></td>
+</tr>
+<tr>
+<td><strong>Two</strong> way data binding </td>
+<td align="center"> <i class="fa fa-check"></i> </td>
+<td align="center"> with epoxy.js </td>
+<td align="center"> <i class="fa fa-check"></i></td>
+</tr>
+<tr>
+<td>Level of separation from DOM </td>
+<td align="center"> 1 </td>
+<td align="center"> 3 </td>
+<td align="center"> 2</td>
+</tr>
+<tr>
+<td>Extendability </td>
+<td align="center"> 1 </td>
+<td align="center"> 2 </td>
+<td align="center"> 3</td>
+</tr>
+</tbody>
+</table>
+
+
+<p>Ordering is from best to last</p>
+
+<p>(1) AngularJS is noted as less flexible, but that is because it follows conventions.  This is what makes it more efficient than other frameworks.  The structure and convention is set, leaving way for the app&rsquo;s code.  There&rsquo;s no need to reinvent the wheel, nor to ensure certain standards that one has to maintain between developers.</p>
+
+<p>AngularJS is great for medium to large projects if you follow simple conventions.  There&rsquo;s just no bending the model as you would in Backbone and Knockout.  But overall, it&rsquo;s for the best.  Here&rsquo;s how it&rsquo;s meant to be used :</p>
+
+<p>Service : Connectors to external APIs
+Directive : Allows to modify DOM through the use of tags or attributes and bind to scope
+View : DOM
+Controller : Glue between Scope and other components like Services//Directives</p>
 </div>
   
   
@@ -227,11 +331,21 @@
 <aside class="sidebar">
   
     <section>
+  <h1>Categories</h1>
+  <ul id="categories">
+    <li class='category'><a href='/blog/blog/categories/angularjs/'>angularjs (1)</a></li>
+<li class='category'><a href='/blog/blog/categories/blogging/'>blogging (1)</a></li>
+<li class='category'><a href='/blog/blog/categories/javascript/'>javascript (1)</a></li>
+<li class='category'><a href='/blog/blog/categories/opensource/'>opensource (1)</a></li>
+<li class='category'><a href='/blog/blog/categories/spring-boot/'>spring boot (1)</a></li>
+
+  </ul>
+</section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/blog/2014/04/22/angularjs/">Angularjs</a>
+        <a href="/blog/blog/2014/04/22/angularjs/">The Battle of Modern Javascript Frameworks</a>
       </li>
     
       <li class="post">
