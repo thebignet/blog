@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Speaking | A developer's perspective]]></title>
+  <link href="http://thebignet.github.io/blog/blog/categories/speaking/atom.xml" rel="self"/>
+  <link href="http://thebignet.github.io/blog/"/>
+  <updated>2014-05-25T19:17:55+02:00</updated>
+  <id>http://thebignet.github.io/blog/</id>
+  <author>
+    <name><![CDATA[Jean Detoeuf]]></name>
+    <email><![CDATA[thebignet@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Giving Your First Talk]]></title>
+    <link href="http://thebignet.github.io/blog/blog/2014/05/25/giving-your-first-talk/"/>
+    <updated>2014-05-25T17:26:00+02:00</updated>
+    <id>http://thebignet.github.io/blog/blog/2014/05/25/giving-your-first-talk</id>
+    <content type="html"><![CDATA[<p>Last thursday, I gave my first tech talk.  My company enfavors its employees to share their knowledge through presentations.  The idea had been in my mind for a long time.  I always admired talkers.  Not because of their charisma, but more because they have knowledge and the spend time preparing and have enough confidence to speak in front of their audience.</p>
+
+<h2>Preparation</h2>
+
+<p>I had been preparing my talk for months.  I knew I could get a conference room to present it in.  I needed a time slot too.  Other presenters where ahead of me, but I didn&rsquo;t mind as long as it happened.  I also had to choose wether it would be a lunch presentation or an afterwork one.  I went for the former as it drags more people to it, even though the downside of it that people eat during your talk.</p>
+
+<p>As we were getting closer to the big day, invitations were sent, a Google event was made and I could estimate how many people would come.  It was all very exciting.</p>
+
+<p>But before I could present, I had to make the slides.  I had a subject already.  I&rsquo;d been a big fan of AngularJS and been using it in a couple of projects and got loads of great feedback from it.  My company gave me a Powerpoint template to start with &hellip; yuck !  The graphics in it dated from the 20th century !  With all these funky slides on the web, I had to find something worth it.  Of course Keynote is good too, has great transitions, and it can even record your presentation, but that was probably too easy and not geeky enough.  As I was to present live web page demos, so a web based presentation it would be.  After searching around, I decided to use <a href="http://lab.hakim.se/reveal-js">reveal.js</a>.  Even though it is open-source, <a href="http://slides.com">slides.com</a> hosts presentations using it.</p>
+
+<p>So I prepared my slides, organized them, chopped down some infos, so as not to drown my attendees in words.  Procrastination got the better of me and the last 10% of polish were obsessing me.  Fortunately, I had my wife and <a href="https://github.com/madbrain">@madbrain</a> to reread the slides.  I practiced several times throughout the presentation.  Trust me, this is mandatory.  You might think &ldquo;I know this, I&rsquo;ll have no problem talking about it&rdquo;.  Believe me, once you start with no audience, you realize a bit of practice is necessary.  Imagine with the audience and pressure.</p>
+
+<h2>Giving the talk</h2>
+
+<p>So the big day came.  After some problems with the overhead projector, I got things started.  I have to say it went better than I expected.  The audience was receptive.  I had a survey in the first slides to get interaction and sometimes polled the audience.  The talk was fine all in all.</p>
+
+<p>The demos however, didn&rsquo;t work.  I could not get them to work.  At first I thought that the lack of internet was to blame.  But I had prepared so that the actual demo would reference a local copy of AngularJS while the slide showed that it references a CDN.  I had cloned the repository on my laptop, but in order to get a local copy of AngularJS, I had to run <code>bower install</code> for bower dependencies to be retrieved.</p>
+
+<p>I didn&rsquo;t resolve this during the presentation in order to get things going.  I now commited those dependencies to my repo in order to avoid that and have a working copy right after clone.  This can lead to a divergence between the bower.json and the actual dependencies on the repository, but I guess it&rsquo;s a lesser evil.</p>
+
+<p>I really have to hand it to Zach Holman for his great advice on <a href="http://speaking.io">speaking.io</a>.  It really helped me concentrate on what&rsquo;s important for a talk and what&rsquo;s not.</p>
+]]></content>
+  </entry>
+  
+</feed>
