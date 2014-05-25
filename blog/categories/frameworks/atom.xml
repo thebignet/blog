@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Frameworks | A developer's perspective]]></title>
+  <link href="http://thebignet.github.io/blog/blog/categories/frameworks/atom.xml" rel="self"/>
+  <link href="http://thebignet.github.io/blog/"/>
+  <updated>2014-05-25T17:19:39+02:00</updated>
+  <id>http://thebignet.github.io/blog/</id>
+  <author>
+    <name><![CDATA[Jean Detoeuf]]></name>
+    <email><![CDATA[thebignet@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Technologies and Frameworks]]></title>
+    <link href="http://thebignet.github.io/blog/blog/2014/05/25/technologies-and-frameworks/"/>
+    <updated>2014-05-25T16:30:08+02:00</updated>
+    <id>http://thebignet.github.io/blog/blog/2014/05/25/technologies-and-frameworks</id>
+    <content type="html"><![CDATA[<p>Recent javascript frameworks are great.  They allow you to do many things simply.  Such things are recent but so useful like two-way data-binding or REST resources.  These concepts have become so essential that one could argue they could be part of the original language.  This is what is suggested in <a href="http://www.html5rocks.com/en/tutorials/es7/observe/">Data-binding Revolutions with Object.observe()</a>.</p>
+
+<p>After all, frameworks are nothing but temporary extensions of a language.  Same goes for Spring in the Java ecosystem.  For example, Spring Batch became so popular that a JSR was made to standardize batch functionnality for Java.  See <a href="https://java.net/projects/jbatch/sources/jsr-352-git-repository/show">JSR 352</a> and <a href="http://spring.io/blog/2014/02/03/jsr-352-spring-batch-and-you">JSR 352 Spring Batch And You</a> for more details.</p>
+
+<p>The annoying thing about frameworks is that they take you prisonner.  It&rsquo;s often not possible to use multiple frameworks for the same part of a stack.  This is why standardization is a good thing.  It allows one to use a standard regardless of implementation.  This is great for switching technologies.</p>
+
+<p>One shouldn&rsquo;t avoid frameworks.  Frameworks are great and the more people use a framework, the closer it gets towards standardisation, the holy grail, the one-standard-to-rule-them-all kind of conquest.  But sometimes, it&rsquo;s only the concept which is retained.  This is what happened for Java 8.  Closures existed already in many languages, even for the JVM.  Such is the case for Scala and Groovy.  Sure it was possible in Java with inner classes.  Anonymous classes are a simple and widely used concept and now Java has a simpler notation for these.</p>
+
+<p>Frameworks push languages forward.  They are the beta testers of new functionnalities.  The ones who succeed become part of the language.</p>
+]]></content>
+  </entry>
+  
+</feed>
