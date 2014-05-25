@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Speaking | A developer's perspective]]></title>
   <link href="http://thebignet.github.io/blog/blog/categories/speaking/atom.xml" rel="self"/>
   <link href="http://thebignet.github.io/blog/"/>
-  <updated>2014-05-25T19:17:55+02:00</updated>
+  <updated>2014-05-25T19:23:51+02:00</updated>
   <id>http://thebignet.github.io/blog/</id>
   <author>
     <name><![CDATA[Jean Detoeuf]]></name>
@@ -39,6 +39,8 @@
 <p>I didn&rsquo;t resolve this during the presentation in order to get things going.  I now commited those dependencies to my repo in order to avoid that and have a working copy right after clone.  This can lead to a divergence between the bower.json and the actual dependencies on the repository, but I guess it&rsquo;s a lesser evil.</p>
 
 <p>I really have to hand it to Zach Holman for his great advice on <a href="http://speaking.io">speaking.io</a>.  It really helped me concentrate on what&rsquo;s important for a talk and what&rsquo;s not.</p>
+
+<p>Anyway, here&rsquo;s the <a href="http://thebignet.github.io/talk-angularjs-introduction">talk</a>, it&rsquo;s in French, though.</p>
 ]]></content>
   </entry>
   
