@@ -27,3 +27,5 @@ The demos however, didn't work.  I could not get them to work.  At first I thoug
 I didn't resolve this during the presentation in order to get things going.  I now commited those dependencies to my repo in order to avoid that and have a working copy right after clone.  This can lead to a divergence between the bower.json and the actual dependencies on the repository, but I guess it's a lesser evil.
 
 I really have to hand it to Zach Holman for his great advice on [speaking.io](http://speaking.io).  It really helped me concentrate on what's important for a talk and what's not.
+
+Anyway, here's the talk, it's in French, though.
