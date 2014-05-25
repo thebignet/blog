@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Technologies and frameworks"
+title: "Frameworks are what drive languages"
 date: 2014-05-25 16:30:08 +0200
 comments: true
-categories: frameworks
+categories: frameworks, language
 ---
 
 Recent javascript frameworks are great.  They allow you to do many things simply.  Such things are recent but so useful like two-way data-binding or REST resources.  These concepts have become so essential that one could argue they could be part of the original language.  This is what is suggested in [Data-binding Revolutions with Object.observe()](http://www.html5rocks.com/en/tutorials/es7/observe/).
