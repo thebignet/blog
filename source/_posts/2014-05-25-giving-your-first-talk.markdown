@@ -28,4 +28,4 @@ I didn't resolve this during the presentation in order to get things going.  I n
 
 I really have to hand it to Zach Holman for his great advice on [speaking.io](http://speaking.io).  It really helped me concentrate on what's important for a talk and what's not.
 
-Anyway, here's the talk, it's in French, though.
+Anyway, here's the [talk](http://thebignet.github.io/talk-angularjs-introduction), it's in French, though.
