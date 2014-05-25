@@ -5,13 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>The Battle of Modern Javascript Frameworks - A developer's perspective</title>
+  <title>Category: Language - A developer's perspective</title>
   <meta name="author" content="Jean Detoeuf">
 
   
-  <meta name="description" content="In 2012 I started looking at the effusion of JS frameworks, amongst which three cought my attention : Backbone.js
-Knockout.js
-AngularJS At that time &hellip;">
+  <meta name="description" content="Category: language">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +18,7 @@ AngularJS At that time &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://thebignet.github.io/blog/blog/2014/04/22/angularjs">
+  <link rel="canonical" href="http://thebignet.github.io/blogblog/categories/language">
   <link href="/blog/favicon.png" rel="icon">
   <link href="/blog/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/blog/atom.xml" rel="alternate" title="A developer's perspective" type="application/atom+xml">
@@ -79,212 +77,36 @@ AngularJS At that time &hellip;">
   <div id="main">
     <div id="content">
       <div>
-<article class="hentry" role="article">
+<article role="article">
   
   <header>
-    
-      <h1 class="entry-title">The Battle of Modern Javascript Frameworks</h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-04-22T18:52:52+02:00" pubdate data-updated="true">Apr 22<span>nd</span>, 2014</time>
-        
-           | <a href="#disqus_thread"
-             data-disqus-identifier="http://thebignet.github.io/blog">Comments</a>
-        
-      </p>
+    <h1 class="entry-title">Category: Language</h1>
     
   </header>
-
-
-<div class="entry-content"><p>In 2012 I started looking at the effusion of JS frameworks, amongst which three cought my attention :</p>
-
-<ul>
-<li><a href="http://backbonejs.org/">Backbone.js</a></li>
-<li><a href="http://knockoutjs.com/">Knockout.js</a></li>
-<li><a href="angularjs.org">AngularJS</a></li>
-</ul>
-
-
-<p>At that time, <strong>AngularJS</strong> was still emerging compared to Backbone, which was used in production and had all the attention.  Backbone is simple, so simple that its code serves as documentation.  This seems like a good thing, but the purpose of a framework is not to be designed simply, but to be simple to use.  That&rsquo;s what Knockout.js and AngularJS are.  But between the two, Knockout.js is too limited.  It does very well with data binding and templating, but doesn&rsquo;t have advanced features that made the popularity of AngularJS such as dependency injection, services, directives, animations &hellip;</p>
-
-<p>AngularJS is my prefered choice for future web applications.  It does wonders with a backend thanks to its REST API.  For me there&rsquo;s no need to have server-side rendering as AngularJS can take care of it and make use of services to communicate to the server.</p>
-
-<h2>Comparison between frameworks</h2>
-
-<p>The following characteristics are not meant to be exhaustive, but are of prime order to me regarding JavaScript frameworks.</p>
-
-<table>
-<thead>
-<tr>
-<th>Characteristic </th>
-<th align="center"> AngularJS </th>
-<th align="center"> Backbone.js </th>
-<th align="center"> Knockout</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Ease of learning </td>
-<td align="center"> 3 </td>
-<td align="center"> 2 </td>
-<td align="center"> 1</td>
-</tr>
-<tr>
-<td>Documentation </td>
-<td align="center"> 1 </td>
-<td align="center"> 2 </td>
-<td align="center"> 3</td>
-</tr>
-<tr>
-<td>Community </td>
-<td align="center"> 1 </td>
-<td align="center"> 2 </td>
-<td align="center"> 3</td>
-</tr>
-<tr>
-<td><a href="http://www.google.com/trends/explore?hl=en-US#q=Angularjs%2C%20Backbone.js%2C%20Knockout.js&amp;date=today%2012-m&amp;cmpt=q">Number of users</a> </td>
-<td align="center"> 1 </td>
-<td align="center"> 2 </td>
-<td align="center"> 3</td>
-</tr>
-<tr>
-<td>Testing </td>
-<td align="center"> <i class="fa fa-check"></i> </td>
-<td align="center"> <i class="fa fa-check"></i> </td>
-<td align="center"> <i class="fa fa-check"></i></td>
-</tr>
-<tr>
-<td>Dependency injection </td>
-<td align="center"> <i class="fa fa-check"></i> </td>
-<td align="center"> <i class="fa fa-check"></i> </td>
-<td align="center"> </td>
-</tr>
-<tr>
-<td>Flexibility (1) </td>
-<td align="center"> 3 </td>
-<td align="center"> 1 </td>
-<td align="center"> 2</td>
-</tr>
-<tr>
-<td>Convention </td>
-<td align="center"> 1 </td>
-<td align="center"> 3 </td>
-<td align="center"> 2</td>
-</tr>
-<tr>
-<td><strong>One</strong> way data binding </td>
-<td align="center"> <i class="fa fa-check"></i> </td>
-<td align="center"> with epoxy.js </td>
-<td align="center"> <i class="fa fa-check"></i></td>
-</tr>
-<tr>
-<td><strong>Two</strong> way data binding </td>
-<td align="center"> <i class="fa fa-check"></i> </td>
-<td align="center"> with epoxy.js </td>
-<td align="center"> <i class="fa fa-check"></i></td>
-</tr>
-<tr>
-<td>Level of separation from DOM </td>
-<td align="center"> 1 </td>
-<td align="center"> 3 </td>
-<td align="center"> 2</td>
-</tr>
-<tr>
-<td>Extendability </td>
-<td align="center"> 1 </td>
-<td align="center"> 2 </td>
-<td align="center"> 3</td>
-</tr>
-</tbody>
-</table>
-
-
-<p>Ordering is from best to last</p>
-
-<p>(1) AngularJS is noted as less flexible, but that is because it follows conventions.  This is what makes it more efficient than other frameworks.  The structure and convention is set, leaving way for the app&rsquo;s code.  There&rsquo;s no need to reinvent the wheel, nor to ensure certain standards that one has to maintain between developers.</p>
-
-<p>AngularJS is great for medium to large projects if you follow simple conventions.  There&rsquo;s just no bending the model as you would in Backbone and Knockout.  But overall, it&rsquo;s for the best.  Here&rsquo;s how it&rsquo;s meant to be used :</p>
-
-<p>Service : Connectors to external APIs
-Directive : Allows to modify DOM through the use of tags or attributes and bind to scope
-View : DOM
-Controller : Glue between Scope and other components like Services//Directives</p>
-</div>
-
-
-  <footer>
-    <p class="meta">
-      
   
-
-<span class="byline author vcard">Posted by <span class="fn">Jean Detoeuf</span></span>
-
-      
-
-
-
-
-
+  <div id="blog-archives" class="category">
 
 
 
   
+  <h2>2014</h2>
+
+<article>
+  
+<h1><a href="/blog/blog/2014/05/25/technologies-and-frameworks/">Frameworks Are What Drive Languages</a></h1>
+<time datetime="2014-05-25T16:30:08+02:00" pubdate><span class='month'>May</span> <span class='day'>25</span> <span class='year'>2014</span></time>
+
+<footer>
+  <span class="categories">posted in <a class='category' href='/blog/blog/categories/frameworks/'>frameworks,</a>, <a class='category' href='/blog/blog/categories/language/'>language</a></span>
+</footer>
 
 
-<time datetime="2014-04-22T18:52:52+02:00" pubdate data-updated="true">Apr 22<span>nd</span>, 2014</time>
-      
-
-<span class="categories">
-  
-    <a class='category' href='/blog/blog/categories/angularjs/'>angularjs</a>, <a class='category' href='/blog/blog/categories/javascript/'>javascript</a>
-  
-</span>
-
-
-    </p>
-    
-      <div class="sharing">
-  
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://thebignet.github.io/blog/blog/2014/04/22/angularjs/" data-via="thebignet" data-counturl="http://thebignet.github.io/blog/blog/2014/04/22/angularjs/" >Tweet</a>
-  
-  
-  <div class="g-plusone" data-size="medium"></div>
-  
-  
-    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
-  
-</div>
-
-    
-    <p class="meta">
-      
-        <a class="basic-alignment left" href="/blog/blog/2014/04/12/first-pull-request/" title="Previous Post: First pull request">&laquo; First pull request</a>
-      
-      
-        <a class="basic-alignment right" href="/blog/blog/2014/05/25/technologies-and-frameworks/" title="Next Post: Frameworks are what drive languages">Frameworks are what drive languages &raquo;</a>
-      
-    </p>
-  </footer>
 </article>
 
-  <section>
-    <h1>Comments</h1>
-    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
-  </section>
+
+  
+</article>
 
 </div>
 
@@ -385,10 +207,7 @@ Controller : Glue between Scope and other components like Services//Directives</
       var disqus_shortname = 'thebignetblog';
       
         
-        // var disqus_developer = 1;
-        var disqus_identifier = 'http://thebignet.github.io/blog/blog/2014/04/22/angularjs/';
-        var disqus_url = 'http://thebignet.github.io/blog/blog/2014/04/22/angularjs/';
-        var disqus_script = 'embed.js';
+        var disqus_script = 'count.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
